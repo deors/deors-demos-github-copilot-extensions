@@ -1,0 +1,17 @@
+{
+    "name": "deors-demos-github-copilot-aifoundry",
+    "private": "true",
+    "description": "A basic example of a GitHub Copilot Extension using a model deployed in Azure AI Foundry",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "node --watch index.js"
+    },
+    "dependencies": {
+        "express": "^4.21.0",
+        "@octokit/core": "^6.1.2",
+        "@azure/core-auth": "^1.9.0",
+        "@azure-rest/ai-inference": "^1.0.0-beta.6",
+        "@azure/core-sse": "^2.2.0"
+    }
+}
